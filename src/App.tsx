@@ -6,7 +6,7 @@ import PageNotFound from './Pages/PageNotFound';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='SWAPI_TASK'>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/axios" element={<AxiosPage />} />
