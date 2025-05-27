@@ -1,9 +1,9 @@
 {
-  "name": "Sham-Sbehat",
+  "name": "swapi-task",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/Sham-Sbehat/https---github.com-Sham-Sbehat-SWAPI_TASK",
+   "homepage": "https://Sham-Sbehat.github.io/SWAPI_TASK",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
