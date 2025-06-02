@@ -10,14 +10,7 @@ import {
   StyledTableHead,
   StyledTableRow,
 } from "./People.styles";
-
-interface Person {
-  name: string;
-  height: string;
-  mass: string;
-  birth_year: string;
-  gender: string;
-}
+import type { Person } from "../../types/person"; // ✅ using global type
 
 interface Props {
   people: Person[];
